@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eb4fd28-1e91-4281-9db9-455403553470" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commit-msg-nogerrit" beforeDir="false" afterPath="$PROJECT_DIR$/commit-msg-nogerrit" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
       <updated>1652938962580</updated>
       <workItem from="1652938964062" duration="2367000" />
       <workItem from="1652945537354" duration="11000" />
-      <workItem from="1652950636779" duration="42000" />
+      <workItem from="1652950636779" duration="647000" />
     </task>
     <servers />
   </component>
