@@ -39,6 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunManager">
@@ -66,7 +67,7 @@
       <updated>1652938962580</updated>
       <workItem from="1652938964062" duration="2367000" />
       <workItem from="1652945537354" duration="11000" />
-      <workItem from="1652950636779" duration="647000" />
+      <workItem from="1652950636779" duration="1470000" />
     </task>
     <servers />
   </component>
