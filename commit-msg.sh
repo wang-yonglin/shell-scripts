@@ -24,6 +24,7 @@ commit_message=`cat $1`
 
 commit_check_result=`echo $commit_message | egrep "$commit_check_reg"`
 
+
 #echo "commit_check_reg:" $commit_check_reg
 #echo "commit_file_url:" $commit_file_url
 #echo "commit_message:" $commit_message
