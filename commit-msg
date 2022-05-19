@@ -20,7 +20,7 @@
 
 # avoid [[ which is not POSIX sh.
 
-commit_check_reg="^(feat|fix|other){1}(\(.*\))?[:：]+(.){2,100}\[(http://|https://)(jira|zhishiku)\.casstime\.com/.+\].*$"
+commit_check_reg="^(feat|fix|other){1}(\(.*\))?[:：]+(.){2,100}\[(http://|https://)(jira|zhishiku)\.genjiedian\.com/.+\].*$"
 commit_message=`cat $1`
 
 commit_check_result=`echo $commit_message | egrep "$commit_check_reg"`
@@ -39,7 +39,7 @@ if [ "$commit_check_result" == "" ];then
   echo " *   提交类型: 提交说明 [相关链接]                                  *"
   echo " *                                                                  *"
   echo " * 【提交示例】                                                     *"
-  echo " *  feat: 添加xxx特性 [https://jira.casstime.com/EC0001]            *"
+  echo " *  feat: 添加xxx特性 [https://jira.genjiedian.com/EC0001]            *"
   echo " *                                                                  *"
   echo " * 【规范说明】                                                     *"
   echo " *  提交类型(必须)：用于说明提交类型，可选值有以下几种              *"
