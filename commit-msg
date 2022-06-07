@@ -53,6 +53,7 @@ if [ "$commit_check_result" == "" ];then
 exit 1
 fi
 
+
 #==========================================================================#
 if test "$#" != 1 ; then
   echo "$0 requires an argument."
