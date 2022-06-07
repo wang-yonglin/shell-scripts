@@ -28,7 +28,6 @@ commit_check_result=`echo $commit_message | egrep "$commit_check_reg"`
 #echo "commit_message:" $commit_message
 #echo "commit_check_result:" $commit_check_result
 
-
 if [ "$commit_check_result" == "" ];then
   echo ""  
   echo " *************************不符合提交规范*****************************"
